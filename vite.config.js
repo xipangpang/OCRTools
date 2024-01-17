@@ -7,6 +7,7 @@ import {createStyleImportPlugin} from "vite-plugin-style-import"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/OCRTools/',
   plugins: [
     vue(),
     createStyleImportPlugin({
